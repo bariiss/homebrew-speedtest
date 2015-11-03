@@ -1,6 +1,6 @@
 require 'formula'
 
-HOMEBREW_SPEEDTEST_VERSION = '0.2.0'
+HOMEBREW_SPEEDTEST_VERSION = '0.3.0'
 class Speedtest < Formula
   homepage 'https://github.com/showwin/speedtest-go'
   url 'https://github.com/showwin/speedtest-go.git', tag: "v#{HOMEBREW_SPEEDTEST_VERSION}"
