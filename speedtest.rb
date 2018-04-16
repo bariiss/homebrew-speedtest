@@ -8,7 +8,7 @@ class Speedtest < Formula
   head 'https://github.com/showwin/speedtest-go.git', branch: 'master'
 
   depends_on 'go' => :build
-  depends_on :hg => :build
+  depends_on 'mercurial' => :build
 
   def install
     ENV['GOPATH'] = buildpath
