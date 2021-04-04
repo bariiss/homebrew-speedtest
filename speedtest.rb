@@ -13,7 +13,7 @@ class Speedtest < Formula
 
   def install
     system 'go', 'build', '-o', 'speedtest-go'
-    bin.install 'speedtest-go', 'speedtest'
+    bin.install 'speedtest-go' => 'speedtest'
   end
 
   test do
