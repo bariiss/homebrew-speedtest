@@ -1,10 +1,10 @@
 require 'formula'
 
-HOMEBREW_SPEEDTEST_VERSION = '1.0.6'
+SPEEDTEST_VERSION = '1.1.1'
 class Speedtest < Formula
   homepage 'https://github.com/showwin/speedtest-go'
-  url 'https://github.com/showwin/speedtest-go.git', tag: "v#{HOMEBREW_SPEEDTEST_VERSION}"
-  version HOMEBREW_SPEEDTEST_VERSION
+  url 'https://github.com/showwin/speedtest-go.git', tag: "v#{SPEEDTEST_VERSION}"
+  version SPEEDTEST_VERSION
   head 'https://github.com/showwin/speedtest-go.git', branch: 'master'
 
   depends_on 'go' => :build
