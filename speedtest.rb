@@ -12,7 +12,7 @@ class Speedtest < Formula
 
   def install
     ENV['GOPATH'] = buildpath
-    system 'go', 'mod', 'init'
+    system 'go', 'mod', 'init', 'github.com/showwin/speedtest-go'
     system 'go', 'build', '-o', 'speedtest'
     bin.install 'speedtest'
   end
