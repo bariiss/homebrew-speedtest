@@ -12,7 +12,7 @@ class Speedtest < Formula
 
   def install
     ENV['GOPATH'] = buildpath
-    system 'go', 'get', 'gopkg.in/alecthomas/kingpin.v2'
+    system 'go', 'mod', 'init'
     system 'go', 'build', '-o', 'speedtest'
     bin.install 'speedtest'
   end
