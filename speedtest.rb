@@ -1,6 +1,6 @@
 require 'formula'
 
-SPEEDTEST_VERSION = '1.1.5'
+SPEEDTEST_VERSION = '1.2.0'
 class Speedtest < Formula
   desc 'speedtest cli'
   homepage 'https://github.com/showwin/speedtest-go'
