@@ -1,9 +1,9 @@
 # homebrew-speedtest
-homebrew format of showwin/speedtest-go
+homebrew format of bariiss/speedtest-go
 
 ## Installation
 ```
-$ brew tap showwin/speedtest
+$ brew tap bariiss/speedtest
 $ brew install speedtest
 ```
 
@@ -14,4 +14,4 @@ $ brew upgrade speedtest
 ```
 
 ## Usage
-See [README](https://github.com/showwin/speedtest-go/blob/master/README.md) at [showwin/speedtest-go](https://github.com/showwin/speedtest-go)
+See [README](https://github.com/bariiss/speedtest-go/blob/master/README.md) at [bariiss/speedtest-go](https://github.com/bariiss/speedtest-go)
